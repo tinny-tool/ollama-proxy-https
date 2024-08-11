@@ -11,7 +11,8 @@ Ollama Proxy HTTPS 是一个为 Ollama API 提供 HTTPS 代理的工具。它允
 
 ## 安装
 
-确保您的系统已安装ollama服务，默认端口11434
+- 确保您的系统已安装ollama服务，默认端口11434
+- 使用https://github.com/tinny-tool/https-local-cli 生成本地cert证书，并添加信任
 
 ```bash
 npm i & npm start
