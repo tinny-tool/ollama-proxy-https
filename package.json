@@ -1,0 +1,25 @@
+{
+  "name": "ollama-proxy-https",
+  "version": "1.0.0",
+  "description": "ollama-proxy-https",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "https",
+    "local",
+    "server",
+    "cli",
+    "proxy",
+    "ollama"
+  ],
+  "author": "Chen YCL",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1"
+  }
+}
