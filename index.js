@@ -1,8 +1,8 @@
 const express = require("express");
 const https = require("https");
 const fs = require("fs");
-const path = require("path");
 const cors = require('cors'); 
+
 
 const app = express();
 const port = 11434;
@@ -13,7 +13,7 @@ const corsOptions = {
   methods: ['GET', 'POST', 'OPTIONS'], 
   allowedHeaders: ['Content-Type', 'Authorization'], 
   credentials: true, 
-  optionsSuccessStatus: 
+  optionsSuccessStatus: 200
 };
 
 app.use(cors(corsOptions)); 
